@@ -1,6 +1,6 @@
 # Интернет-магазин недвижимости
 <p>
-	<img src="" alt="">
+	<img src="./src/img/shop-project.jpg" alt="">
 </p>
 
 ### Доступные команды
