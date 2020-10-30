@@ -3,12 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://anastasiagerasimova.github.io/real-estate-shop",
   "dependencies": {
     "@babel/polyfill": "^7.8.7",
     "es6-promise": "^4.2.8",
-    "isomorphic-fetch": "^2.2.1",
-    "url-search-params-polyfill": "^8.1.0"
+    "isomorphic-fetch": "^2.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.9.0",
@@ -23,9 +21,7 @@
   "scripts": {
     "dev": "webpack --mode development",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --mode development --open",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "webpack-dev-server --mode development --open"
   },
   "keywords": [],
   "author": "",
