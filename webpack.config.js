@@ -8,11 +8,11 @@ module.exports = {
         index: './src/js/main.js',
     },
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'build'),
         filename: '[name].bundle.js',
     },
     devServer: {
-        contentBase: './dist',
+        contentBase: './build',
     },
     plugins: [
         new HtmlWebpackPlugin({
