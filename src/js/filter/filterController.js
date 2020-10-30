@@ -13,7 +13,7 @@ export default async function(state){
     // Отрисовка фильтра
     view.render(state.filter.params);
 
-    // Делаем запрос на сервер
+    // Делаем запрос на сервер  
     await state.filter.getResult()
     state.result = state.filter.result;
 

@@ -16,7 +16,7 @@ export default class Preloader {
                             </div>
                         </div>`;
         
-        document.querySelector('#app').insertAdjacentHTML('afterbegin', markup)
+        document.querySelector('#app').insertAdjacentHTML('beforeend', markup)
     }
 
     hidePreloader(){
